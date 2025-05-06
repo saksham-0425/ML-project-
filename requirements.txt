@@ -5,5 +5,5 @@ matplotlib
 scikit-learn
 xgboost
 catboost
-
+dill
 #-e .   #this will automatically trigger setup.py to run and execute parallelly.

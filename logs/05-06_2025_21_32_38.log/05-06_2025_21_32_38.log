@@ -1,0 +1,12 @@
+[2025-05-06 21:32:38,089]97werkzeug-WARNING- * Debugger is active!
+[2025-05-06 21:32:38,094]97werkzeug-INFO- * Debugger PIN: 858-459-147
+[2025-05-06 21:32:50,448]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:32:50] "GET / HTTP/1.1" 200 -
+[2025-05-06 21:32:56,017]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:32:56] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+[2025-05-06 21:32:56,202]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:32:56] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-05-06 21:32:56,217]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:32:56] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-05-06 21:32:56,255]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:32:56] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=6NXyv7fSeABmObm39v3n HTTP/1.1" 200 -
+[2025-05-06 21:36:47,513]97werkzeug-INFO- * Detected change in 'c:\\resume project\\app.py', reloading
+[2025-05-06 21:36:47,514]97werkzeug-INFO- * Detected change in 'C:\\Resume Project\\app.py', reloading
+[2025-05-06 21:36:47,514]97werkzeug-INFO- * Detected change in 'c:\\resume project\\app.py', reloading
+[2025-05-06 21:36:47,521]97werkzeug-INFO- * Detected change in 'C:\\Resume Project\\app.py', reloading
+[2025-05-06 21:36:47,521]97werkzeug-INFO- * Detected change in 'c:\\resume project\\app.py', reloading

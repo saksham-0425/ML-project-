@@ -1,0 +1,8 @@
+[2025-05-06 21:25:23,318]97werkzeug-WARNING- * Debugger is active!
+[2025-05-06 21:25:23,324]97werkzeug-INFO- * Debugger PIN: 858-459-147
+[2025-05-06 21:25:51,114]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:25:51] "GET / HTTP/1.1" 200 -
+[2025-05-06 21:25:51,253]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:25:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-06 21:27:06,424]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:27:06] "[33mGET /predictdata HTTP/1.1[0m" 404 -
+[2025-05-06 21:29:48,538]97werkzeug-INFO- * Detected change in 'c:\\resume project\\venv\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-05-06 21:29:48,540]97werkzeug-INFO- * Detected change in 'C:\\Resume Project\\venv\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-05-06 21:29:48,543]97werkzeug-INFO-127.0.0.1 - - [06/May/2025 21:29:48] "[35m[1mGET /predict HTTP/1.1[0m" 500 -

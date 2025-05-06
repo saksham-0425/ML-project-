@@ -1,0 +1,5 @@
+[2025-05-07 00:24:13,540]97werkzeug-WARNING- * Debugger is active!
+[2025-05-07 00:24:13,545]97werkzeug-INFO- * Debugger PIN: 858-459-147
+[2025-05-07 00:24:18,594]97werkzeug-INFO-127.0.0.1 - - [07/May/2025 00:24:18] "POST /predictdata HTTP/1.1" 200 -
+[2025-05-07 00:24:40,668]97werkzeug-INFO-127.0.0.1 - - [07/May/2025 00:24:40] "POST /predictdata HTTP/1.1" 200 -
+[2025-05-07 00:25:00,859]97werkzeug-INFO-127.0.0.1 - - [07/May/2025 00:25:00] "POST /predictdata HTTP/1.1" 200 -

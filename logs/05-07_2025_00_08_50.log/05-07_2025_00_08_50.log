@@ -1,0 +1,6 @@
+[2025-05-07 00:08:50,903]97werkzeug-WARNING- * Debugger is active!
+[2025-05-07 00:08:50,909]97werkzeug-INFO- * Debugger PIN: 858-459-147
+[2025-05-07 00:09:00,754]97werkzeug-INFO-127.0.0.1 - - [07/May/2025 00:09:00] "POST /predictdata HTTP/1.1" 200 -
+[2025-05-07 00:09:22,796]97werkzeug-INFO-127.0.0.1 - - [07/May/2025 00:09:22] "POST /predictdata HTTP/1.1" 200 -
+[2025-05-07 00:12:55,663]97werkzeug-INFO- * Detected change in 'C:\\Resume Project\\src\\utils.py', reloading
+[2025-05-07 00:12:55,664]97werkzeug-INFO- * Detected change in 'c:\\resume project\\src\\utils.py', reloading
