@@ -1,5 +1,5 @@
 import sys #provides various functions and variables used to manipulate different parts of the python runtime environments
-import logging
+from src.logger import logging #importing the logging module from the src.logger file
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
