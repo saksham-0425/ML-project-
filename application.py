@@ -1,21 +1,18 @@
-from flask import Flask,request,render_template
+from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
 
 from sklearn.preprocessing import StandardScaler
-from src.pipeline.predict_pipeline import CustomData,PredictPipeline
+from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
-application=Flask(__name__)
+application = Flask(__name__)  # <-- EB expects this name
 
-app=application
-
-## Route for a home page
-
-@app.route('/')
+# Route for home page
+@application.route('/')
 def index():
     return render_template('index.html') 
 
-@app.route('/predictdata', methods=['GET', 'POST'])
+@application.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
     if request.method == 'GET':
         return render_template('home.html')
@@ -39,10 +36,3 @@ def predict_datapoint():
         except Exception as e:
             print("ERROR:", e)
             return render_template('home.html', results="An internal error occurred. Check server logs.")
-
-    
-
-if __name__=="__main__":
-    app.run(host="0.0.0.0",port=5000)        
-
-
